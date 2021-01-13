@@ -6,24 +6,22 @@
     <link rel="stylesheet" href="index.css">
     <title>Lab2</title>
 </head>
-<header>
-    <img src="./media/fatcathappycat.png" alt="fat cat">
-    <aside>
-        <strong>Hello! My name is George Li and I am a Sophomore at UCSD, studying Computer Science and Economics.</strong>
-    </aside>
-</header>
 <body>
+    <header>
+        <img src="./media/fatcathappycat.png" alt="fat cat">
+        <aside>
+            <strong>Hello! My name is George Li and I am a Sophomore at UCSD, studying Computer Science and Economics.</strong>
+        </aside>
+    </header>
     <main>
-        <nav>
+        <span>
             <h1>Contents</h1>
-            <span>
                 <ul>
                     <li>About me</li>
                     <li>Personal</li>
                     <li>Programming</li>
                 </ul>
-            </span>
-        </nav>
+        </span>
         <h1>About me</h1>
         <h2><b>Personal</b></h2>
         <p> 
@@ -44,9 +42,9 @@
                 <br>
                 You can see my progress in my github repo: FullStackOpen.
             </p>
-            <code> &lt React-Component :)/ &gt </code>
+            <code> &lt; React-Component :)/ &gt; </code>
             <pre>
-                &lt REACT-COURSE attribute='incomplete'/ &gt
+                &lt; REACT-COURSE attribute='incomplete'/ &gt;
             </pre>
         </div>
 
@@ -56,7 +54,7 @@
                 
             </p>
             <picture>
-                <source src="./media/spreadsheet.png" type="image/webme">
+                <source type="image/webme" src="./media/spreadsheet.png">
                 <img src="./media/spreadsheet.png" alt="Spreadsheet">
             </picture>
             <p>It essentially allows someone to calculate if an item in the game is profitable by accessing an API that tracks packets sent between the game server and player. 
@@ -78,19 +76,19 @@
                 Some future prospects:
                 <ol>
                     <li>Budgetting WebApp
-                        <li>One that I would personally prefer to track my finances, spending, and investing.</li>
                     </li>
+                    <li>One that I would personally prefer to track my finances, spending, and investing.</li>
                     <li>Calendar/Time Management WebApp</li>
                 </ol>
                 <br>
                 <table>
                     <caption>My current school schedule:</caption>
                     <colgroup>
-                        <col span="2">
-                        <col span="2">
-                        <col span="2">
-                        <col span="2">
-                        <col span="2">
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
                     </colgroup>
                     <tr>
                         <th scope="col">Monday</th>
@@ -132,77 +130,77 @@
         </div>
         <details>
             <summary>Some stuff for this lab</summary>
-        <svg>
-            <circle cx="50" cy="50" r="40"/>
-        </svg>
-        <canvas width="100" height="100"></canvas>
-        <br>
-        <form>
-            <fieldset>
-                <legend>Lab2 inputs</legend>
-                <label for="fname">Name</label>
-                <input type="text"> <input value="submit" type="button"> <!-- 1 + 2 -->
+            <svg>
+                <circle cx="50" cy="50" r="40"/>
+            </svg>
+                <canvas width="100" height="100"></canvas>
                 <br>
-                <label for="username"> Secure</label>
-                <input type="password"> <!-- 3 -->
-                <input type="hidden"> <!-- 4 -->
+                <form>
+                    <fieldset>
+                        <legend>Lab2 inputs</legend>
+                        <label>Name</label>
+                        <input type="text"> <input value="submit" type="button"> <!-- 1 + 2 -->
+                        <br>
+                        <label> Secure</label>
+                        <input type="password"> <!-- 3 -->
+                        <input type="hidden"> <!-- 4 -->
+                        <br>
+                        <label>file</label>
+                        <input type="file"> <!-- 5 -->
+                        <br>
+                        <label >time</label>
+                        <input type="month"> <!-- 6 -->
+                        <br>
+                        <label >image</label> <!-- 7 -->
+                        <input type="image" alt="Insert Image here">
+                        <br>
+                        <label >number</label> 
+                        <input type="number"> <!-- 8 -->
+                        <button>submit </button>
+                        <br>
+                        <label >range</label>
+                        <input type="range"> <!-- 9 -->
+                        <input type="reset"> <!-- 10 -->
+                        <br>
+                        <label >More information:</label>
+                        <textarea cols="30" rows="10"></textarea>
+                        <br>
+                    </fieldset>
+                </form>
                 <br>
-                <label for="file">file</label>
-                <input value="Choose file" type="file"> <!-- 5 -->
+                <label for="">Time</label>
+                <select name="" id="Times">
+                    <optgroup label="Monday">
+                        <datalist id="times">
+                        <option>5:00PM</option>
+                        </datalist>
+                    </optgroup>
+                </select>
                 <br>
-                <label for="">time</label>
-                <input type="month"> <!-- 6 -->
+                Github page:
                 <br>
-                <label for="">image</label> <!-- 7 -->
-                <input type="image">
+                
+                <iframe src="https://giantteddybearz.github.io/"></iframe>
                 <br>
-                <label for="">number</label> 
-                <input type="number"> <!-- 8 -->
-                <button>submit </button>
+                <video controls width="250">
+                    <source src="./media/wow.mp4" type="video/webm">
+                    Sorry your browser doesn't support videos.
+                </video>
                 <br>
-                <label for="">range</label>
-                <input type="range"> <!-- 9 -->
-                <input type="reset"> <!-- 10 -->
-                <br>
-                <label for="">More information:</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <br>
-            </fieldset>
-        </form>
-        <br>
-        <label for="">Time</label>
-        <select name="" id="Times">
-            <optgroup label="Monday">
-                <datalist id="times">
-                <option>5:00PM</option>
-                </datalist>
-            </optgroup>
-        </select>
-        <br>
-        Github page:
-        <br>
-        
-        <iframe src="https://giantteddybearz.github.io/" frameborder="0"></iframe>
-        <br>
-        <video controls width="250">
-            <source src="./media/wow.mp4" type="video/webm">
-            Sorry your browser doesn't support videos.
-        </video>
-        <br>
-        <audio controls>
-            <source src="./media/wow.mp3">
-        </audio>
-        </section>
-        <template>
-            <div>Hidden?</div>
-        </template>
+                <audio controls>
+                    <source src="./media/wow.mp3">
+                </audio>
+                </section>
+                <template>
+                    <div>Hidden?</div>
+                </template>
         </details>
     </main>
+    <footer>
+        <figure>
+            <img src="whitman.jpg" alt="Keep your face towards the sunshine - And the shadows will fall behind you">
+            <figcaption>-Walt Whitman</figcaption>
+        </figure>
+    </footer>
 </body>
-<footer>
-<figure>
-    <img src="whitman.jpg" alt="Keep your face towards the sunshine - And the shadows will fall behind you">
-    <figcaption>-Walt Whitman</figcaption>
-</figure>
-</footer>
 </html>
