@@ -14,12 +14,14 @@
         </aside>
     </header>
     <main>
+        <nav>
             <h1>Contents</h1>
                 <ul>
                     <li>About me</li>
                     <li>Personal</li>
                     <li>Programming</li>
                 </ul>
+        </nav>
         <h1>About me</h1>
         <h2><b>Personal</b></h2>
         <p> 
@@ -38,7 +40,7 @@
                 However, I am currently trying to get more involved by taking  , a React + NodeJS + MongoDB course which was suggested to me by a friend.
                 <br>
                 <br>
-                You can see my progress in my github repo: FullStackOpen.
+                You can see my progress in my github repo: <a href="https://github.com/GiantTeddyBearz/Lab2"> FullStackOpen </a>.
             </p>
             <code> &lt; React-Component :)/ &gt; </code>
             <pre>
@@ -167,11 +169,12 @@
                     </fieldset>
                 </form>
                 <br>
+                <br>
                 <label >Time</label>
                 <select id="Times">
-                    <optgroup label="Monday">
-                        <option>5:00PM</option>
-                    </optgroup>
+                        <optgroup label="Monday">
+                            <option>5:00PM</option>
+                        </optgroup>
                 </select>
                 <br>
                 Github page:
@@ -192,6 +195,11 @@
     <template>
         <div>Hidden?</div>
     </template>
+    <label for="list-choices"> Choose something</label>
+    <input list="list-choice" id="list-choices" name="list-choices"/>
+    <datalist id="list-choice">
+            <option value="wow">
+            <option value="2">
     </main>
     <footer>
         <figure>
