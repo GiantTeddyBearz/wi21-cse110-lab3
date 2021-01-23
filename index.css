@@ -1,0 +1,23 @@
+/* This is a comment */
+
+* {
+    color: rgb(61, 61, 61);
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #2c2b2b;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+}
+p {
+    color: hsla(0, 0%, 0%, 1);
+}
+
+.Sean {
+    color: black;
+}
