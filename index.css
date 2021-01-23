@@ -13,6 +13,10 @@ h1 {
     border-color: black;
     border-width: 3px;
     border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 p {
     color: hsla(0, 0%, 0%, 1);
@@ -20,4 +24,34 @@ p {
 
 .Sean {
     color: black;
+    padding: 10 10 10 10;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 10cm;
+    height: 100mm;
+}
+
+#spreadsheet img{
+    margin: 0 auto 0 auto;
+    width: 20cm;
+    height: 10cm;
+}
+
+.fixed {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    position: fixed;
+    top: 90vh;
+    right: 30px;
+    background-color: grey;
+    width: 2.5vw;
+    height: 5vh;
+    text-decoration: solid;
 }
