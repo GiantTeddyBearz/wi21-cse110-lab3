@@ -79,3 +79,33 @@ details.flex{
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
+
+.grid > .subgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    grid-template-rows: 25%;
+}
+
+.subgrid div{
+    width: 100px;
+    height: 100px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: rgb(220, 190, 223);
+}
+
+@media (max-width: 500px) {
+    h1 {
+        border-color: grey;
+    }
+}
+
+h1 ~ h1 {
+    color: grey;
+}
+
+label + input {
+    color: brown;
+}
