@@ -1,13 +1,13 @@
 # MEETING TYPE DATE
 Attendance: All members were in attendance.  
 Speaker: Uday  
-Note-taker: George
+Note-taker: George  
 Agenda:  
- * 
- * 
- * 
- * 
- * 
+ *  
+ *  
+ *  
+ *  
+ *  
  *  
 
 Objective Statement:
