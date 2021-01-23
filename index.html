@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,67 +11,75 @@
     <link rel="stylesheet" href="index.css">
     <title>Lab2</title>
 </head>
+
 <body class="Sean">
     <header>
-        <img src="./media/fatcathappycat.png" alt="fat cat">
-        <aside>
-            <strong>Hello! My name is <span>George Li</span> and I am a Sophomore at UCSD, studying Computer Science and Economics.</strong>
+        <img id="fatcat" src="./media/fatcathappycat.png" alt="fat cat">
+        <aside attribute="name">
+            <strong>Hello! My name is <span>George Li</span> and I am a Sophomore at UCSD, studying Computer Science and
+                Economics.</strong>
         </aside>
     </header>
     <main>
         <div class="fixed">
             UP
         </div>
-            <h1>Contents</h1>
-            <nav>
-                <ul>
-                    <li>About me</li>
-                    <li>Personal</li>
-                    <li>Programming</li>
-                </ul>
-            </nav>
+        <h1>Contents</h1>
+        <nav>
+            <ul>
+                <li>About me</li>
+                <li>Personal</li>
+                <li>Programming</li>
+            </ul>
+        </nav>
         <h1>About me</h1>
         <h2><b>Personal</b></h2>
-        <p> 
-        Outside of school, I enjoy almost anything I do with my friends. Usually that means I am <i>eating, hiking, and playing video games a lot.</i>
-        <br>
-        I also am intensely interested in investing (I often learn about new company prospects and read quarterly reports) and usually love spending time with family.
+        <p>
+            Outside of school, I enjoy almost anything I do with my friends. Usually that means I am <i>eating, hiking,
+                and playing video games a lot.</i>
+            <br>
+            I also am intensely interested in investing (I often learn about new company prospects and read quarterly
+            reports) and usually love spending time with family.
         </p>
         <img src="./media/stonks.jpg" alt="stonks meme" style="
         display: block;
         margin-left: auto;
-        margin-right: auto;"> 
+        margin-right: auto;">
         <section>
-        <h2><b>Programming</b></h2>
-        <div>
-            <p>
-                As a programmer, I am <em>relatively</em> inexperienced outside of regular coursework.
-                <br>
-                <br>
-                However, I am currently trying to get more involved by taking  , a React + NodeJS + MongoDB course which was suggested to me by a friend.
-                <br>
-                <br>
-                You can see my progress in my github repo: <a href="https://github.com/GiantTeddyBearz/Lab2"> FullStackOpen </a>.
-            </p>
-            <code> &lt; React-Component :)/ &gt; </code>
-            <pre>
+            <h2><b>Programming</b></h2>
+            <div>
+                <p>
+                    As a programmer, I am <em>relatively</em> inexperienced outside of regular coursework.
+                    <br>
+                    <br>
+                    However, I am currently trying to get more involved by taking , a React + NodeJS + MongoDB course
+                    which was suggested to me by a friend.
+                    <br>
+                    <br>
+                    You can see my progress in my github repo: <a href="https://github.com/GiantTeddyBearz/Lab2">
+                        FullStackOpen </a>.
+                </p>
+                <code> &lt; React-Component :)/ &gt; </code>
+                <pre>
                 &lt; REACT-COURSE attribute='incomplete'/ &gt;
             </pre>
-        </div>
+            </div>
 
-        <h3>Projects</h3>
-        <div>
-            <p>The only project that I personally created was this: 
-                
-            </p>
-            <picture id="spreadsheet">
-                <source type="image/webme" srcset="./media/spreadsheet.png">
-                <img src="./media/spreadsheet.png" alt="Spreadsheet">
-            </picture>
-                It essentially allows someone to calculate if an item in the game is profitable by accessing an API that tracks packets sent between the game server and player. 
-                I made this a couple of years ago, and would definitely love to do something similar with stock analysis or personal finance. Perhaps something like inputting a 
+            <h3>Projects</h3>
+            <div>
+                <p>The only project that I personally created was this:
+
+                </p>
+                <picture id="spreadsheet">
+                    <source type="image/webme" srcset="./media/spreadsheet.png">
+                    <img src="./media/spreadsheet.png" alt="Spreadsheet">
+                </picture>
+                It essentially allows someone to calculate if an item in the game is profitable by accessing an API that
+                tracks packets sent between the game server and player.
+                I made this a couple of years ago, and would definitely love to do something similar with stock analysis
+                or personal finance. Perhaps something like inputting a
                 list and automatically calculating the most profitable of the list would be interesting.
-            
+
                 <hr>
                 Hopefully I will be working on more involved projects after finishing my react course.
                 <ul>
@@ -114,21 +123,21 @@
                         <td></td>
                         <td>CSE 110</td>
                     </tr>
-                    <tr>            
+                    <tr>
                         <td>PHIL 28</td>
                         <td></td>
                         <td>PHIL 28</td>
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>            
+                    <tr>
                         <td>ECON 100C</td>
                         <td></td>
                         <td>ECON 100C</td>
                         <td></td>
                         <td>ECON 100C</td>
                     </tr>
-                    <tr>            
+                    <tr>
                         <td>CSE 101</td>
                         <td></td>
                         <td>CSE 101</td>
@@ -136,14 +145,14 @@
                         <td>CSE 101</td>
                     </tr>
                 </table>
-        </div>
-        <details>
-            <summary>Some stuff for this lab</summary>
-            <div>
-                <svg>
-                    <circle cx="50" cy="50" r="40"/>
-                </svg>
-             </div>
+            </div>
+            <details class="flex">
+                <summary>Some stuff for this lab</summary>
+                <div>
+                    <svg>
+                        <circle cx="50" cy="50" r="40" />
+                    </svg>
+                </div>
                 <canvas width="100" height="100"></canvas>
                 <br>
                 <form>
@@ -159,37 +168,37 @@
                         <label>file</label>
                         <input type="file"> <!-- 5 -->
                         <br>
-                        <label >time</label>
+                        <label>time</label>
                         <input type="month"> <!-- 6 -->
                         <br>
-                        <label >image</label> <!-- 7 -->
+                        <label>image</label> <!-- 7 -->
                         <input type="image" alt="Insert Image here">
                         <br>
-                        <label >number</label> 
+                        <label>number</label>
                         <input type="number"> <!-- 8 -->
                         <button>submit </button>
                         <br>
-                        <label >range</label>
+                        <label>range</label>
                         <input type="range"> <!-- 9 -->
                         <input type="reset"> <!-- 10 -->
                         <br>
-                        <label >More information:</label>
+                        <label>More information:</label>
                         <textarea cols="30" rows="10"></textarea>
                         <br>
                     </fieldset>
                 </form>
                 <br>
                 <br>
-                <label >Time</label>
+                <label>Time</label>
                 <select id="Times">
-                        <optgroup label="Monday">
-                            <option>5:00PM</option>
-                        </optgroup>
+                    <optgroup label="Monday">
+                        <option>5:00PM</option>
+                    </optgroup>
                 </select>
                 <br>
                 Github page:
                 <br>
-                
+
                 <iframe src="https://giantteddybearz.github.io/"></iframe>
                 <br>
                 <video controls width="250">
@@ -201,24 +210,26 @@
                     <source src="./media/wow.mp3">
                 </audio>
             </details>
-    </section>
-    <template>
-        <div>Hidden?</div>
-    </template>
-    <div>
-        <label for="list-choices"> Choose something</label>
-        <input list="list-choice" id="list-choices" name="list-choices"/>
-        <datalist id="list-choice">
+        </section>
+        <template>
+            <div>Hidden?</div>
+        </template>
+        <div>
+            <label for="list-choices"> Choose something</label>
+            <input list="list-choice" id="list-choices" name="list-choices" />
+            <datalist id="list-choice">
                 <option value="wow"></option>
                 <option value="2"></option>
-        </datalist>
-    </div>
+            </datalist>
+        </div>
     </main>
     <footer>
-        <figure>
-            <img src="./media/whitman.jpg" alt="Keep your face towards the sunshine - And the shadows will fall behind you">
+        <figure class="George">
+            <img src="./media/whitman.jpg"
+                alt="Keep your face towards the sunshine - And the shadows will fall behind you">
             <figcaption>-Walt Whitman</figcaption>
         </figure>
     </footer>
 </body>
+
 </html>

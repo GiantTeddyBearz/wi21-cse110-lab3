@@ -22,12 +22,13 @@ p {
     color: hsla(0, 0%, 0%, 1);
 }
 
-.Sean {
+.Sean, .George{
     color: black;
     padding: 10 10 10 10;
 }
 
 img {
+    position: static;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -52,6 +53,29 @@ img {
     right: 30px;
     background-color: grey;
     width: 2.5vw;
+    min-width: 5%;
+    max-width: 10%;
     height: 5vh;
     text-decoration: solid;
+}
+
+aside[attribute] {
+    text-align: center;
+}
+
+input:hover {
+    color: green;
+    display: inline-block;
+}
+
+input:active {
+    color: red;
+}
+
+details.flex{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
